@@ -1,22 +1,23 @@
-# Fly.io owners first; upstream entries below are kept for reference.
+# Fly.io owners. Upstream entries below are commented out: CODEOWNERS is
+# last-match-wins and they would otherwise override this line.
 * @superfly/machines-team
 
 # All markdown files
-*.md @xmarcalx @kalyazin @pb8o @Manciukic
+# *.md @xmarcalx @kalyazin @pb8o @Manciukic
 
 # But not the ones in docs/
-docs/*.md
+# docs/*.md
 
 # Except these specific ones
-docs/getting-started.md @xmarcalx @kalyazin @pb8o @Manciukic
-docs/prod-host-setup.md @xmarcalx @kalyazin @pb8o @Manciukic
+# docs/getting-started.md @xmarcalx @kalyazin @pb8o @Manciukic
+# docs/prod-host-setup.md @xmarcalx @kalyazin @pb8o @Manciukic
 
 # Also cover all "*policy*.md" documents
-**/*policy*.md @xmarcalx @kalyazin @pb8o @Manciukic
-**/*POLICY*.md @xmarcalx @kalyazin @pb8o @Manciukic
+# **/*policy*.md @xmarcalx @kalyazin @pb8o @Manciukic
+# **/*POLICY*.md @xmarcalx @kalyazin @pb8o @Manciukic
 
 # Also these non-md files in the repository root
-THIRD_PARTY @xmarcalx @kalyazin @pb8o @Manciukic
-LICENSE @xmarcalx @kalyazin @pb8o @Manciukic
-NOTICE @xmarcalx @kalyazin @pb8o @Manciukic
-PGP-KEY.asc @xmarcalx @kalyazin @pb8o @Manciukic
+# THIRD_PARTY @xmarcalx @kalyazin @pb8o @Manciukic
+# LICENSE @xmarcalx @kalyazin @pb8o @Manciukic
+# NOTICE @xmarcalx @kalyazin @pb8o @Manciukic
+# PGP-KEY.asc @xmarcalx @kalyazin @pb8o @Manciukic
